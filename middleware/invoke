@@ -1,6 +1,6 @@
 #!/bin/sh
 
-/usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool tellurium.ipynb" \
-                        -t tellurium \
+/usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool Cdc2CyclinModel.ipynb" \
+                        -t repcycle \
                         -u anaconda3-5.1 \
                         -e TOOL_PYTHONPATH=/apps/share64/debian7/anaconda/anaconda3-5.1/tools/tellurium/20190823/lib/python3.6/site-packages
